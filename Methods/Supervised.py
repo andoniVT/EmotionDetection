@@ -13,9 +13,15 @@ class NaiveBayes(object):
         print self.__number_of_classes
 
 if __name__ == '__main__':
+        
+    comentario1 = ['feliz' , 'alegria' , 'dicha', 'perfecto', 'bueno']
+    comentario2 = ['triste', 'rencor', 'odio' , 'coraje']
+    comentario3 = ['odio' , 'ira' , 'rencor']
+    comentario4 = ['genial', 'feliz' , 'chevere']
+    comentario5 = ['bueno' , 'bien' , 'bello' , 'excelente']
     
-    data = [[1,2,3] , [4,5,6], [7,8,9], [9,8,7] , [5,3,1]]
-    labels = [1, 3 , 0 ,1 ,2]
+    data = [comentario1, comentario2, comentario3, comentario4, comentario5]
+    labels = ['Feliz' , 'Enojado' , 'Enojado', 'Feliz' , 'Feliz']
     
     nb = NaiveBayes(data,labels)
 
