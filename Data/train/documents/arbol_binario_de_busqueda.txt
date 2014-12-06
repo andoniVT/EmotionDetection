@@ -1,0 +1,6 @@
+Un arbol binario de busqueda tambien llamados BST (acronimo del ingles Binary Search Tree) es un tipo particular de arbol binario que presenta una estructura de datos en forma de arbol usada en informatica.
+Todo arbol vacio es un arbol binario de busqueda.
+Un arbol binario no vacio, de raiz R, es un arbol binario de busqueda si:
+En caso de tener subarbol izquierdo, la raiz R debe ser mayor que el valor maximo almacenado en el subarbol izquierdo, y que el subarbol izquierdo sea un arbol binario de busqueda.
+En caso de tener subarbol derecho, la raiz R debe ser menor que el valor minimo almacenado en el subarbol derecho, y que el subarbol derecho sea un arbol binario de busqueda.
+

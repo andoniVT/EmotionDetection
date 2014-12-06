@@ -1,0 +1,11 @@
+Un compilador es un programa informatico que traduce un programa escrito en un lenguaje de programacion a otro lenguaje de programacion, generando un programa equivalente que la maquina sera capaz de interpretar. Usualmente el segundo lenguaje es lenguaje de maquina, pero tambien puede ser un codigo intermedio (bytecode), o simplemente texto. Este proceso de traduccion se conoce como compilacion.1
+Un compilador es un programa que permite traducir el codigo fuente de un programa en lenguaje de alto nivel, a otro lenguaje de nivel inferior (tipicamente lenguaje de maquina). De esta manera un programador puede disenar un programa en un lenguaje mucho mas cercano a como piensa un ser humano, para luego compilarlo a un programa mas manejable por una computadora.
+Esta taxonomia de los tipos de compiladores no es excluyente, por lo que puede haber compiladores que se adscriban a varias categorias:
+Compiladores cruzados: generan codigo para un sistema distinto del que estan funcionando.
+Compiladores optimizadores: realizan cambios en el codigo para mejorar su eficiencia, pero manteniendo la funcionalidad del programa original.
+Compiladores de una sola pasada: generan el codigo maquina a partir de una unica lectura del codigo fuente.
+Compiladores de varias pasadas: necesitan leer el codigo fuente varias veces antes de poder producir el codigo maquina.
+Compiladores JIT (Just In Time): forman parte de un interprete y compilan partes del codigo segun se necesitan.
+Pauta de creacion de un compilador: En las primeras epocas de la informatica, el software de los compiladores era considerado como uno de los mas complejos existentes.
+Los primeros compiladores se realizaron programandolos directamente en lenguaje maquina o en ensamblador. Una vez que se dispone de un compilador, se pueden escribir nuevas versiones del compilador (u otros compiladores distintos) en el lenguaje que compila ese compilador.
+Actualmente existen herramientas que facilitan la tarea de escribir compiladores o interpretes informaticos. Estas herramientas permiten generar el esqueleto del analizador sintactico a partir de una definicion formal del lenguaje de partida, especificada normalmente mediante una gramatica formal y barata, dejando unicamente al programador del compilador la tarea de programar las acciones semanticas asociadas.

@@ -1,0 +1,70 @@
+Las ciencias de la computacion son aquellas que abarcan las bases teoricas de la informacion y la computacion, asi como su aplicacion en sistemas computacionales. Existen diversos campos o disciplinas dentro de las Ciencias de la Computacion o Ciencias Computacionales; algunos enfatizan los resultados especificos del computo (como los graficos por computadora), mientras que otros (como la teoria de la complejidad computacional) se relacionan con propiedades de los algoritmos usados al realizar computos. Otros por su parte se enfocan en los problemas que requieren la implementacion de computos. Por ejemplo, los estudios de la teoria de lenguajes de programacion describen un computo, mientras que la programacion de computadoras aplica lenguajes de programacion especificos para desarrollar una solucion a un problema computacional concreto. La informatica se refiere al tratamiento automatizado de la informacion de una forma util y oportuna. No se debe confundir el caracter teorico de esta ciencia con otros aspectos practicos como Internet.
+De acuerdo a Peter J. Denning, la cuestion fundamental en que se basa la ciencia de la computacion es, Que puede ser (eficientemente) automatizado?.
+Campos de las ciencias de la computacion
+Fundamentos matematicos
+Criptografia
+Consta de algoritmos para proteger datos privados, incluyendo el cifrado.
+Teoria de grafos
+Recursos elementales para las estructuras de almacenamiento de datos y para los algoritmos de busqueda.
+Logica matematica
+La logica matematica estudia los sistemas formales en relacion con el modo en el que codifican nociones intuitivas de objetos matematicos como conjuntos, numeros, demostraciones y computacion.
+Teoria de tipos
+Analisis formal de los tipos de datos, y el uso de estos para entender las propiedades de los programas, en particular la seguridad de estos.
+Teoria de la computacion
+Teoria de la computacion
+Teoria de automatas
+Teoria de la computabilidad
+Teoria de la complejidad computacional
+Limites fundamentales (en especial de espacio en memoria y tiempo) de los computos.
+Algoritmos y estructuras de datos
+Analisis de algoritmos
+Algoritmos
+procesos formales usados para los computos, y eficiencia de estos procesos.
+Estructuras de datos
+organizacion y manipulacion de los datos
+Logica y computabilidad
+estudio de diferentes tipos de logicas,su poder expresivo, decidibilidad, aplicaciones.
+Especificacion
+desarrollo de metodos para definir formalmente (matematica y logicamente), el comportamiento esperado de un algortimo, para luego probar terminacion y correctitud.
+Lenguajes de programacion y compiladores
+Compiladores
+formas de traducir programas computacionales, usualmente a partir de lenguajes de alto nivel a lenguajes de bajo nivel.
+Teoria de lenguajes de programacion
+lenguajes formales para expresar algoritmos y las propiedades de estos lenguajes.
+Bases de datos
+Bases de datos
+Estructura de datos
+Mineria de datos
+estudio de algoritmos para buscar y procesar informacion en documentos y bases de datos; muy relacionada con la adquisicion de informacion.
+Sistemas concurrentes, paralelos y distribuidos
+Programacion concurrente
+teoria y practica de computos simultaneos y computacion interactiva.
+Redes de computadoras
+algoritmos y protocolos para comunicar eficientemente datos a traves de largas distancias, incluye tambien la correccion de errores.
+Computo paralelo
+computacion usando multiples computadoras y multiples procesadores en paralelo.
+Sistemas Distribuidos
+sistemas utilizando multiples procesadores repartidos en una gran area geografica.
+Inteligencia artificial
+Inteligencia artificial
+la implementacion y estudio de sistemas que exhiben (ya sea por su comportamiento o aparentemente) una inteligencia autonoma o comportamiento propio, a veces inspirado por las caracteristicas de los seres vivos. Las ciencias de la computacion estan relacionadas con la IA, ya que el software y las computadoras son herramientas basicas para el desarrollo y progreso de la inteligencia artificial.
+Razonamiento automatizado
+Robotica
+algoritmos para controlar el comportamiento de los robots.
+Vision por computador
+algoritmos para extraer objetos tridimensionales de una imagen bidimensional.
+Aprendizaje Automatico
+Graficos por computador
+Computacion grafica
+algoritmos tanto para generar sinteticamente imagenes visuales como para integrar o alterar la informacion visual y espacial tomada del mundo real.
+Procesamiento digital de imagenes
+por ejemplo para sensores remotos.
+Geometria Computacional
+por ejemplo algoritmos veloces para seleccionar solo los puntos visibles en un poliedro visto desde cierto angulo, usado en motores 3D
+Computacion cientifica
+Bioinformatica
+Computacion Cuantica
+Paradigma de computacion basado en la Mecanica Cuantica
+Neurociencia computacional
+
+

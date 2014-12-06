@@ -1,13 +1,16 @@
 '''
 Created on 06/12/2014
 
-@author: andoni
+@author: Jorge Andoni Valverde Tohalino
+@email:  andoni.valverde@ucsp.edu.pe
 '''
 
 #from scipy import spatial
 import math
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
+import numpy
+
 
 class VectorModel(object):
 

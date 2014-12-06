@@ -144,7 +144,8 @@ class PreProcessor(object):
 
 if __name__ == '__main__':
         
-    asking = "@MarianoRajoy:  Las elecciones tienen que ser un grito esperanzado contra la corrupcion http://t.co/RvxFbBfU via @ #elcambioandaluz"    
+    asking = '@soto_cobos: !!!! por fin manuel burga esta fuera de la FPF ahora veremos al nuevo presidente de  la FPF ;) http://t.co/KXOTkboFMo'
+    #asking = "@MarianoRajoy:  Las elecciones tienen que ser un grito esperanzado contra la corrupcion http://t.co/RvxFbBfU via @ #elcambioandaluz"    
     procesor = PreProcessor(asking)
     print procesor.get_processed_document()
     
