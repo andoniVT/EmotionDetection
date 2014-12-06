@@ -1,7 +1,8 @@
 '''
 Created on 03/12/2014
 
-@author: andoni
+@author: Jorge Andoni Valverde Tohalino
+@email:  andoni.valverde@ucsp.edu.pe
 '''
 
 class NaiveBayes(object):

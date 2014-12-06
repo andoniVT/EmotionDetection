@@ -3,7 +3,8 @@
 '''
 Created on 05/12/2014
 
-@author: andoni
+@author: Jorge Andoni Valverde Tohalino
+@email:  andoni.valverde@ucsp.edu.pe
 '''
 import sys  
 reload(sys)  
