@@ -119,7 +119,10 @@ class K_Means(object):
     
 if __name__ == '__main__':    
     
-    entrada = llenar_entrada(20, 2)
+    entrada = llenar_entrada(20, 6)
+    for i in entrada:
+        print i 
+    print "\n \n"
     kmeans = K_Means(entrada, 4)
     resultado = kmeans.clusterizar()    
     for i in resultado:
