@@ -1,0 +1,41 @@
+teoria de la computabilidad
+base de datos orientadas a objetos
+aprendizaje automatico
+software
+teoria de automatas
+computacion distribuida
+robotica
+base de datos relacional
+razonamiento automatizado
+teoria de computacion
+base de datos transaccionales
+vision artificial
+neurociencia computacional
+biologia
+ciencia de la computacion
+base de datos jerarquica
+ingenieria informatica
+criptografia
+base de datos de red
+firma digital
+computacion cuantica
+compilador
+cifrado
+ingenieria del software
+matriz
+teoria de grafos
+lenguajes de programacion
+algoritmo
+computacion grafica
+analisis de algoritmos
+mineria de datos
+estructuras de datos
+arbol rojo negro
+inteligencia artificial
+programacion
+programacion concurrente
+redes de computadoras
+computacion paralela
+bio informatica
+base de datos
+complejidad computacional

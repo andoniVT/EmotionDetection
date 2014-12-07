@@ -6,6 +6,7 @@ Created on 03/12/2014
 '''
 from random import randint , uniform
 from math import pow , sqrt
+from scikits.learn.cluster.tests.test_affinity_propagation import n_clusters
 
 def llenar_entrada(size , dimensiones):
     entrada = []
@@ -116,6 +117,7 @@ class K_Means(object):
             print "error: " + str(error)
             print "\n"
         return resultado_final 
+
     
 if __name__ == '__main__':    
     
@@ -123,7 +125,12 @@ if __name__ == '__main__':
     for i in entrada:
         print i 
     print "\n \n"
+    
+    '''
     kmeans = K_Means(entrada, 4)
     resultado = kmeans.clusterizar()    
     for i in resultado:
-        print i    
+        print i
+    '''
+    
+        
