@@ -13,6 +13,10 @@ big_text = path + '/Resource/big2.txt'
 
 
 unlabeledData = path + '/Data/train/unlabeledComments.txt'
+unlabeledDocuments = path + '/Data/train/documents/*.txt'
+
 labeledData = path + '/Data/train/labeled/'
 
 
+labeledDataDocuments = path + '/Data/train/documentLabeled/documents/'
+labeledDataTitles = path + '/Data/train/documentLabeled/titles/'
