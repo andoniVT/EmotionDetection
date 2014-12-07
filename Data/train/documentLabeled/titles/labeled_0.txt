@@ -1,59 +1,43 @@
-los constructores de catedrales
-espiritu santo
-abuelita
-la margarita
-el soldadito de plomo
-tres cerditos
-manuel neuer
-el cofre volador
-caperucita roja
-peter pan
-el ruisenor
-dios
-alicia caerina
-el patito feo
-el duende de la tienda
-juan sebastian veron
-el ninio travieso
-la zorra partera
-kiss
-el gallo despertador
-platero y yo
-gene simmons
-fin de invierno
-zaragoza
-cisnes salvajes
-el tullido
-el companero de viaje
-iglesia catolica
-barcos de papel
-el caracol y el rosal
-gato con botas
-el nido de cisnes
-pulgarcito
-patito feo
-como se dibuja un paisaje
-steven tyler
-jesucristo
-bambi
-el angel
-arbol de la ciencia
-guns and roses
-caperucita
-bajo el sauce
-pulgarcita
-axl rose
-sweet child of mine
-el eclipse
-la sirenita
-juegos olimpicos
-caminante no hay camino
-el pequenio tuk
-de animales
-los cisnes salvajes
-crazy
-el chico y los frailes
-paul stanley
-el cerro de los elfos
-curiosidades animales
-aerosmith
+futbol
+ricardo carvalho
+diego armando maradona
+paul scholes
+juventus
+bayern munich
+alvaro arveloa
+andres iniesta
+parma
+esteban granero
+karim benzema
+rio ferdinand
+lionel messi
+gonzalo higuain
+liverpool
+andriy shevchenko
+fabio coentrao
+mesut ozil
+gianuigi buffon
+frank ribery
+zinedine zidane
+zlatan ibrahimovic
+valencia
+cristiano ronaldo
+sami khedira
+fernando torres
+cesc fabregas
+pepe
+lazio
+kaka
+iker casillas
+manchester united
+real madrid
+fc barcelona
+sergio ramos
+david villa
+xabi alonso
+jose mourinho
+ac milan
+luis figo
+angel di maria
+wayne rooney
+hernan crespo

@@ -4,10 +4,12 @@ Created on 03/12/2014
 @author: Jorge Andoni Valverde Tohalino
 @email:  andoni.valverde@ucsp.edu.pe
 '''
-
+import cPickle
+from Configuration.settings import frequencyTableDT, probabilityTableDT, dictionaryDT , sizeDataDT  
+     
 class NaiveBayes(object):
     
-    def __init__(self, data, labels):
+    def __init__(self, data="", labels=""):
         self.__data = data 
         self.__labels = labels
         self.__number_of_elements = 0
@@ -90,6 +92,18 @@ class NaiveBayes(object):
         self.__frequency_table = self.get_frequency_table()
         self.__probability_table = self.get_probability_table()
         
+        with open(sizeDataDT, 'wb') as fid:
+            cPickle.dump(len(self.__data), fid) 
+        
+        with open(dictionaryDT, 'wb') as fid:
+            cPickle.dump(self.__dictionary, fid)
+        
+        with open(frequencyTableDT, 'wb') as fid:
+            cPickle.dump(self.__frequency_table, fid)
+        
+        with open(probabilityTableDT, 'wb') as fid:
+            cPickle.dump(self.__probability_table, fid)            
+        
     def multiply(self, vector):
         prod = 1.0
         for i in vector: prod *=i
@@ -105,16 +119,22 @@ class NaiveBayes(object):
         return value 
 
     def classify_comment(self , test):
+        with open(sizeDataDT , 'rb') as fid:
+            size_data = cPickle.load(fid)
+        with open(dictionaryDT , 'rb') as fid:
+            self.__dictionary = cPickle.load(fid)
+        with open(frequencyTableDT , 'rb') as fid:
+            self.__frequency_table = cPickle.load(fid)
+        with open(probabilityTableDT , 'rb') as fid:
+            self.__probability_table = cPickle.load(fid)                
         vec_indexes = []
         for i in test:
             index = self.find_position(self.__frequency_table, i)
             vec_indexes.append(index)
-
         prob_values = []
-
         for i in range(len(self.__dictionary)):
             #print "prob(" +  self.__dictionary[i][0] + "): "
-            prob_class = self.__dictionary[i][1]/float(len(self.__data))           
+            prob_class = self.__dictionary[i][1]/float(size_data)           
             #print "prob class: " + str(prob_class)            
             num_values = []
             den_values = []
@@ -124,7 +144,7 @@ class NaiveBayes(object):
                     num_values.append(value) 
                     index = len(self.__frequency_table[j][1])-1
                     value2 = self.__frequency_table[j][1][index]
-                    value2 = value2/float(len(self.__data)) 
+                    value2 = value2/float(size_data) 
                     den_values.append(value2)            
 
             num_value = self.multiply(num_values)
@@ -133,17 +153,7 @@ class NaiveBayes(object):
 
             prob_value = (self.__dictionary[i][0] , prob)
             prob_values.append(prob_value)
-            '''
-            print "num: " + str(num_value)
-            print "den: " + str(den_value)
-            print "FINAL: " + str(prob) 
-            '''
-            #print " "
-
-        print prob_values
-
-        #print ""
-
+        #print prob_values
         label = self.greater(prob_values)
         #print label
         return label[0]
@@ -155,8 +165,6 @@ class NaiveBayes(object):
             label = self.classify_comment(lista)
             labels.append(label)
         return labels
-
-
 
 if __name__ == '__main__':
         

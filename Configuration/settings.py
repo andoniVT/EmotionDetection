@@ -24,3 +24,10 @@ labeledDataTitles = path + '/Data/train/documentLabeled/titles/'
 
 trainComments = path + '/Data/train/labeled/*.txt'
 trainDocuments = path + '/Data/train/documentLabeled/documents/*.txt'
+
+
+dataDocumentTrained = path + '/DataTrained'
+sizeDataDT = dataDocumentTrained + '/size.pk1'
+frequencyTableDT = dataDocumentTrained + '/frequencyTable.pk1'
+probabilityTableDT = dataDocumentTrained + '/probabilityTable.pk1'
+dictionaryDT = dataDocumentTrained + '/dictionary.pk1'

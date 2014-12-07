@@ -1,43 +1,106 @@
-futbol
-ricardo carvalho
-diego armando maradona
-paul scholes
-juventus
-bayern munich
-alvaro arveloa
-andres iniesta
-parma
-esteban granero
-karim benzema
-rio ferdinand
-lionel messi
-gonzalo higuain
-liverpool
-andriy shevchenko
-fabio coentrao
-mesut ozil
-gianuigi buffon
-frank ribery
-zinedine zidane
-zlatan ibrahimovic
-valencia
-cristiano ronaldo
-sami khedira
-fernando torres
-cesc fabregas
-pepe
-lazio
-kaka
-iker casillas
-manchester united
-real madrid
-fc barcelona
-sergio ramos
-david villa
-xabi alonso
-jose mourinho
-ac milan
-luis figo
-angel di maria
-wayne rooney
-hernan crespo
+timbre
+teoria de la computabilidad
+base de datos orientadas a objetos
+aprendizaje automatico
+mercurio
+jupiter
+energia cinetica
+software
+marea
+musica
+arbol b
+bioma
+teoria de automatas
+computacion distribuida
+electron
+robotica
+base de datos relacional
+razonamiento automatizado
+monticulo suave
+mar
+arbol binario
+teoria de computacion
+base de datos transaccionales
+sonido
+viento solar
+vision artificial
+neurociencia computacional
+division del dia
+biologia
+atmosfera terreste
+biocenosis
+ciencia de la computacion
+base de datos jerarquica
+obligacion moral
+ingenieria informatica
+bosque
+energia
+arrecife de coral
+estrella
+viento
+altiplano
+criptografia
+pesca
+base de datos de red
+firma digital
+computacion cuantica
+cometa
+sistema solar
+compilador
+venus
+clima
+fauna
+la luna
+eclipse solar
+monticulo fibonacci
+energia quimica
+tabla hash
+agriculturaa
+armonia
+neptuno
+marte
+cifrado
+ingenieria del software
+matriz
+nitrogeno
+ecologia
+melodia
+fusion nuclear
+litosfera
+teoria de grafos
+desierto
+lenguajes de programacion
+arbol binario de busqueda
+urano
+arbol de la ciencia
+magnetosfera
+electronegatividad
+algoritmo
+computacion grafica
+saturno
+analisis de algoritmos
+sol
+heliosfera
+monticulo binario
+mineria de datos
+medio ambiente
+estructuras de datos
+arbol rojo negro
+combustible
+inteligencia artificial
+arbol b+
+hidrogeno
+de animales
+dia
+programacion
+mestizaje
+programacion concurrente
+playa
+flora
+ecosistema
+redes de computadoras
+computacion paralela
+bio informatica
+base de datos
+complejidad computacional
+inicio de la agricultura y ganaderia

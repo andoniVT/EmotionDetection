@@ -6,11 +6,11 @@ Created on 07/12/2014
 import glob
 from Methods.Supervised import NaiveBayes as NB
 from Configuration.settings import trainComments , trainDocuments
- 
+from Preprocesser.commentProcess import PreProcessor as PP 
 
-class Training(object):
+class Manager(object):
     
-    def __init__(self, source):
+    def __init__(self, source=""):
         self.__source = source
         self.__data = []
         self.__all_data = []
@@ -28,7 +28,7 @@ class Training(object):
             f.close()
     
     def label_data(self):
-        id = 1
+        id = 0
         for i in self.__data:             
             for j in i:
                 data = j.split()
@@ -38,21 +38,34 @@ class Training(object):
                 self.__labels.append(label)
             id+=1
             
-    def train_data(self):        
+    def train_data(self):
+        self.loadData()
+        self.label_data()        
         nb = NB(self.__all_data, self.__labels)        
         nb.train()
-        
-        test_comm = 'ciencia de la computacion esta relacionada con algoritmos arboles binarios base de datos y estructuras de datos'
-        test_data = [test_comm]
-        
-        labels = nb.classify(test_data)
+    
+    def classify_data(self, querys):                
+        procesed_test = []
+        for i in querys:
+            pre = PP(i)
+            i = pre.get_processed_document()
+            procesed_test.append(i)
+                    
+        nb = NB()
+        labels = nb.classify(procesed_test)
         print labels
         
-                        
-
 if __name__ == '__main__':
     
-    prueba = Training(trainDocuments)
-    prueba.loadData()
-    prueba.label_data()
-    prueba.train_data()
+    #prueba = Manager(trainDocuments)    
+    #prueba.train_data()
+    
+    test_comm = 'diego armando maradona es el mejor futbolista de todos los tiempos'
+    test_comm2 = 'el peru es un gran pais'
+    test_data = [test_comm , test_comm2]
+    
+    
+    
+    test = Manager()
+    test.classify_data(test_data)
+    

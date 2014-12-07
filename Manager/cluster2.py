@@ -94,6 +94,6 @@ class ClusterData(object):
         
 if __name__ == '__main__':
     
-    #clus = ClusterData(unlabeledDocuments,False,4)
-    clus = ClusterData(unlabeledData,True,4)
+    clus = ClusterData(unlabeledDocuments,False,6)
+    #clus = ClusterData(unlabeledData,True,4)
     clus.manage()

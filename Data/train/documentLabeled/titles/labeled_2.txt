@@ -1,68 +1,40 @@
 los dinosaurios
-mercurio
-costa peruana
-jupiter
-energia cinetica
-marea
-arbol b
-bioma
-imperio incaico
-electron
-monticulo suave
-mar
-arbol binario
-viento solar
-division del dia
-atmosfera terreste
-biocenosis
-inca
-bosque
-quechua
-energia
-arrecife de coral
-estrella
-viento
-altiplano
-pesca
-cometa
-sistema solar
-venus
-clima
-cultura moche
-fauna
-la luna
-eclipse solar
-monticulo fibonacci
-energia quimica
-tabla hash
-agriculturaa
-neptuno
-heavy metal
-marte
-deidad
-nitrogeno
-ecologia
-fusion nuclear
-litosfera
-desierto
-arbol binario de busqueda
-urano
-cultura huari
-magnetosfera
-electronegatividad
-saturno
-sol
-heliosfera
-monticulo binario
-medio ambiente
-cultura nazca
-combustible
-arbol b+
-hidrogeno
-dia
-mestizaje
-cultura chavin
-playa
-flora
-ecosistema
-inicio de la agricultura y ganaderia
+abuelita
+la margarita
+el soldadito de plomo
+tres cerditos
+el cofre volador
+caperucita roja
+peter pan
+el ruisenor
+alicia caerina
+el patito feo
+el duende de la tienda
+el ninio travieso
+la zorra partera
+el gallo despertador
+platero y yo
+fin de invierno
+zaragoza
+cisnes salvajes
+el tullido
+el companero de viaje
+barcos de papel
+el caracol y el rosal
+gato con botas
+el nido de cisnes
+pulgarcito
+patito feo
+como se dibuja un paisaje
+bambi
+el angel
+caperucita
+bajo el sauce
+pulgarcita
+la sirenita
+caminante no hay camino
+el pequenio tuk
+los cisnes salvajes
+el chico y los frailes
+el cerro de los elfos
+curiosidades animales
