@@ -20,3 +20,7 @@ labeledData = path + '/Data/train/labeled/'
 
 labeledDataDocuments = path + '/Data/train/documentLabeled/documents/'
 labeledDataTitles = path + '/Data/train/documentLabeled/titles/'
+
+
+trainComments = path + '/Data/train/labeled/*.txt'
+trainDocuments = path + '/Data/train/documentLabeled/documents/*.txt'

@@ -4,7 +4,11 @@ Created on 07/12/2014
 @author: andoni
 '''
 import glob
-from Configuration.settings import unlabeledData , labeledData , unlabeledDocuments , labeledDataDocuments , labeledDataTitles
+from Configuration.settings import unlabeledData 
+from Configuration.settings import labeledData 
+from Configuration.settings import unlabeledDocuments 
+from Configuration.settings import labeledDataDocuments 
+from Configuration.settings import labeledDataTitles
 from Preprocesser.commentProcess import PreProcessor as PP
 from Methods.vectorModel import VectorModel as VM
 from some_test import K_Means as KM
@@ -31,9 +35,7 @@ class ClusterData(object):
             i = i.rstrip('\n')
             pre = PP(i)
             self.__data.append(pre.get_processed_document())
-    
-    def removeNonAscii(self , s): return "".join(i for i in s if ord(i)<128)
-    
+
     def get_title_name(self , file):
         i = len(file)-1
         fin = i 
@@ -90,8 +92,6 @@ class ClusterData(object):
                 create_file(predicted[i], labeledDataDocuments, self.__data[i])
                 create_file(predicted[i], labeledDataTitles, self.__titles[i][1])
         
-        
-
 if __name__ == '__main__':
     
     #clus = ClusterData(unlabeledDocuments,False,4)
