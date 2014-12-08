@@ -1,1 +1,1 @@
-['group_0', 'group_5']
+['group_0', 'group_5', 'group_3']

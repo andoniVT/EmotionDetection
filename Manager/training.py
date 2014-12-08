@@ -62,7 +62,9 @@ if __name__ == '__main__':
     
     test_comm = 'diego armando maradona es el mejor futbolista de todos los tiempos'
     test_comm2 = 'el peru es un gran pais'
-    test_data = [test_comm , test_comm2]
+    test_comm3 = 'musica'
+    
+    test_data = [test_comm, test_comm2, test_comm3]
     
     
     
